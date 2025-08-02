@@ -2,16 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+.Profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px;
+    background-color: rgb(134, 114, 248);
+    color: white;
+    padding-right: 35px;
+    height: 100px;
+}
+
+.dash{
+    padding: 10px 15px;
+    background-color: #3c2f84;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin{
+    padding: 10px 15px;
+    background-color: #3c2f84;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 .con {
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }

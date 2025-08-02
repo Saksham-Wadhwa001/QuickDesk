@@ -49,6 +49,65 @@
 }
 
 .query{
-    
+    background-color: rgb(134, 114, 248);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    font-size: larger;
+    margin: 0 auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px 5px;
+    row-gap: 35px;
+    align-items: center;
+}
+
+.Input{
+    display: contents;
+    margin-bottom: 105px;
+}
+
+.Input input{
+    font-size: 16px;
+}
+
+.Input label{
+    margin-right: 50px;
+}
+
+.Input textarea{
+    resize: none;
+    font-size: 16px;
+}
+
+.ques input{
+    width: 100%;
+    height: 40px;
+}
+
+.tag input{
+    width: 100%;
+    height: 40px;
+}   
+
+.phone input{
+    width: 100%;
+    height: 40px;
+}
+
+.email input{
+    width: 100%;
+    height: 40px;
+}
+
+.query button{
+    height: 40px;
+    width: 120px;
+    margin-left: 25px;
+    background-color: #3c2f84;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
