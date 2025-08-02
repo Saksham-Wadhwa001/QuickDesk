@@ -1,0 +1,1 @@
+# quickdesk/__init__.py
