@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="Logo">Logo</div>
+        <div class="Logo">QuickDesk</div>
         <div class="Profile">
             <button>DashBoard</button>
             <button>Admin</button>
@@ -37,14 +37,20 @@
     </div>
     <div class="Search">
         <input type="text" placeholder="Search">
-        <button>Ask</button>
+        <button onclick="openPage()">Ask</button>
     </div>
     <div class="TicketSpace">
         <div class="Ticket">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatem nulla iure dignissimos! Suscipit pariatur error voluptatibus facere tempore adipisci?</p>
-            <span>Tags</span>
+            <p>Is it good things to use AI for hackathon?</p>
+            <span>Technical</span>
         </div>
     </div>
+
+    <script>
+        function openPage() {
+            window.location.href = 'question.html';
+        }
+    </script>
 </body>
 </html>
 
